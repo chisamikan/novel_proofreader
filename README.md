@@ -1,0 +1,2 @@
+# novel_proofreader
+textlintとかで小説の校正するやつ
