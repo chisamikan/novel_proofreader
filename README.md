@@ -8,9 +8,10 @@ VSCode と textlint とかで小説の校正するやつ
    - [VSCode](https://azure.microsoft.com/ja-jp/products/visual-studio-code/)
      - [textlint の拡張機能](https://marketplace.visualstudio.com/items?itemName=taichi.vscode-textlint)
    - [Node.js の LTS 版](https://nodejs.org/ja/)
-2. VSCode のターミナルを開き、`npm i`します。
-3. file.md に小説を書きます。
-4. VSCode の問題タブに校正すべき箇所が表示されます。
+2. このリポジトリを[ダウンロード](https://github.com/chisamikan/novel_proofreader/archive/refs/heads/main.zip)して解凍するか、Git が使える人はこのリポジトリをクローンした後、VSCode の『フォルダーを開く』から開いてください。
+3. VSCode のターミナルを開き、`npm i`します。
+4. file.md に小説を書きます。
+5. VSCode の問題タブに校正すべき箇所が表示されます。
 
 ## 整形について
 
