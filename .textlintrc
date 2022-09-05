@@ -1,25 +1,31 @@
 {
-  "filters": {},
+  "filters": {
+    "whitelist": {
+      "allow": []
+    }
+  },
   "rules": {
+    "@textlint-ja/textlint-rule-no-insert-dropping-sa": true,
     "general-novel-style-ja": {
-      "chars_leading_paragraph": "　「『【〈《（(“\"‘'［[〔｛{＜<●",
-      "no_punctuation_at_closing_quote": true,
-      "space_after_marks": true,
-      "even_number_ellipsises": true,
-      "even_number_dashes": true,
-      "appropriate_use_of_punctuation": true,
-      "appropriate_use_of_interpunct": true,
-      "appropriate_use_of_choonpu": true,
-      "appropriate_use_of_minus_sign": true,
-      "max_arabic_numeral_digits": 5
+      "chars_leading_paragraph": false,
+      "even_number_ellipsises": false
     },
-    "common-misspellings": {
-      "ignore": []
+    "ja-hiragana-fukushi": true,
+    "ja-hiragana-hojodoushi": true,
+    "ja-hiragana-keishikimeishi": true,
+    "ja-no-redundant-expression": true,
+    "ja-no-successive-word": false,
+    "max-kanji-continuous-len": {
+      "allow": []
     },
-    "max-ten": {
-      "max": 3
-    },
+    "max-ten": true,
+    "no-doubled-conjunction": true,
     "no-doubled-conjunctive-particle-ga": true,
-    "no-dropping-the-ra": true
+    "no-doubled-joshi": true,
+    "no-dropping-the-ra": true,
+    "no-start-duplicated-conjunction": true,
+    "sentence-length": {
+      "max": 90
+    }
   }
 }
