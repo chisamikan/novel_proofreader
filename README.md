@@ -13,6 +13,10 @@ VSCode と textlint とかで小説の校正するやつ
 4. file.md に小説を書きます。
 5. VSCode の問題タブに校正すべき箇所が表示されます。
 
+## 自動修正
+
+`npm run fix`である程度自動修正してくれます。
+
 ## 整形について
 
 作者が最終的に InDesign で編集する都合上、Prettier のマークダウン整形がウザったいので.prettierignore で整形しない設定にしています。  
