@@ -20,4 +20,4 @@ VSCode と textlint とかで小説の校正するやつ
 
 ## License
 
-MIT © Chisamikan
+MIT © 千紗みかん
